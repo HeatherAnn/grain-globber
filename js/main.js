@@ -4,11 +4,7 @@ var $li = $('li');
 var $h2 = $('h2');
 var $p = $('p');
 
-$('grains').each(function (grain) {
-  var $ul = $('<ul>');
-  var $li = $('<li>');
-  var $h2 = $('<h2>');
-  var $p = $('<p>');
+$('grains').forEach(function (grain) {
 
   $li.append('<img>');
   $li.append('<h2>');
@@ -18,5 +14,5 @@ $('grains').each(function (grain) {
   $img.attr('src', 'images/' + grain.img);
   $h2.html(grain.name);
   $p.html(grain.desc);
-  
+
 });

@@ -10,22 +10,22 @@ html {
 .grains {
   margin: 0;
   padding: 0;
-
   list-style-type: none;
 }
 
 .grains li {
-
+  padding: 0;
 }
 
 .grains img {
   width: 100px;
+  float: left;
 }
 
 .grains h2 {
-
+  padding: 0;
 }
 
 .grains p {
-
+  padding: 0;
 }

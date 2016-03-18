@@ -14,7 +14,7 @@ html {
 }
 
 .grains li {
-  padding: 0;
+  margin-bottom: 1.2rem;
 }
 
 .grains img {
@@ -23,9 +23,14 @@ html {
 }
 
 .grains h2 {
+  font-size: 1.2rem;
+  margin: 0;
   padding: 0;
 }
 
 .grains p {
+  width: 300px;
+  font-style: italic;
   padding: 0;
+  margin: 0;
 }
